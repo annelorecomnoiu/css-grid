@@ -1,0 +1,33 @@
+body {
+  background-image: url("./images/topography.svg"),
+    linear-gradient(110deg, #f93d66, #6d47d9);
+  background-size: 340px, auto;
+}
+
+.albums {
+  display: grid;
+  grid-gap: 1.2rem;
+  grid-auto-rows: 12rem;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  margin: 3.5rem 3rem;
+}
+
+.album {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  grid-gap: 10px; 
+  padding: 10px 10px 10px 20px ;
+  background-color: rgb(255, 255, 255, 0.5);
+}
+
+.album__artwork {
+  width: 150px;
+}
+
+.album__details {
+  font-family: 'Open Sans Light';
+  font-size: 10px;
+  color: white;
+  width: 100%;
+}
